@@ -54,10 +54,11 @@ def fig1_framework():
 
 
 def fig2_drift_comparison():
-    methods = ['BM25+\n翻译', 'MUSE', 'LASER', 'XLM-R', 'LaBSE', 'mE5-large', 'BGE-M3', 'DriftSup\n(本文)']
-    ndcg = [0.518, 0.672, 0.698, 0.738, 0.756, 0.774, 0.781, 0.812]
-    drift = [0.228, 0.192, 0.178, 0.152, 0.138, 0.124, 0.118, 0.089]
-    colors = ['#BDD7EE']*5 + ['#5B9BD5', '#2E75B6', '#1F4E79']
+    # RTX 3090 measured results (15k docs, 200 queries)
+    methods = ['BGE-M3', 'DriftSup', 'DriftSup\n+KG', 'BGE-M3\n+KG']
+    ndcg = [0.0507, 0.0321, 0.0567, 0.0651]
+    drift = [0.7086, 0.6366, 0.6011, 0.5520]
+    colors = ['#9DC3E6', '#5B9BD5', '#2E75B6', '#1F4E79']
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.5))
     x = np.arange(len(methods))
@@ -66,7 +67,7 @@ def fig2_drift_comparison():
     ax1.set_xticklabels(methods, fontsize=8)
     ax1.set_ylabel('nDCG@10')
     ax1.set_title('(a) 检索性能对比', fontweight='bold')
-    ax1.set_ylim(0, 1.0)
+    ax1.set_ylim(0, 0.08)
     for i, v in enumerate(ndcg):
         ax1.text(i, v + 0.02, f'{v:.3f}', ha='center', fontsize=7)
 
@@ -75,7 +76,7 @@ def fig2_drift_comparison():
     ax2.set_xticklabels(methods, fontsize=8)
     ax2.set_ylabel('Drift-Score ↓')
     ax2.set_title('(b) 语义漂移对比', fontweight='bold')
-    ax2.set_ylim(0, 0.3)
+    ax2.set_ylim(0, 0.8)
     for i, v in enumerate(drift):
         ax2.text(i, v + 0.008, f'{v:.3f}', ha='center', fontsize=7)
 
@@ -87,8 +88,8 @@ def fig2_drift_comparison():
 
 def fig3_language_pairs():
     pairs = ['中-英', '中-俄', '英-俄', '英-阿', '英-西', '中-阿', '中-西', '俄-阿', '俄-西', '阿-西']
-    baseline = [0.756, 0.721, 0.748, 0.712, 0.768, 0.698, 0.742, 0.718, 0.735, 0.728]
-    ours = [0.831, 0.798, 0.819, 0.776, 0.842, 0.751, 0.803, 0.768, 0.789, 0.782]
+    baseline = [0.0527, 0.0512, 0.0134, 0.0134, 0.0134, 0.0512, 0.0512, 0.008, 0.0068, 0.014]
+    ours = [0.0426, 0.0305, 0.019, 0.0167, 0.0167, 0.0262, 0.0315, 0.0074, 0.0069, 0.0014]
     x = np.arange(len(pairs))
     w = 0.35
     fig, ax = plt.subplots(figsize=(10, 5))
@@ -99,7 +100,7 @@ def fig3_language_pairs():
     ax.set_ylabel('nDCG@10')
     ax.set_title('图3  10组语言对检索性能对比', fontsize=12, fontweight='bold')
     ax.legend()
-    ax.set_ylim(0, 1.0)
+    ax.set_ylim(0, 0.07)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     plt.tight_layout()
@@ -108,10 +109,10 @@ def fig3_language_pairs():
 
 
 def fig4_ablation():
-    configs = ['XLM-R\n基线', '+对抗\n训练', '+KG\n增强', '完整\n方法']
-    ndcg = [0.738, 0.771, 0.789, 0.812]
-    drift = [0.152, 0.121, 0.105, 0.089]
-    reduction = [0, 20.4, 30.9, 41.4]
+    configs = ['BGE-M3\n基线', '+DriftSup\n对抗', '+KG\n增强', 'DriftSup\n+KG']
+    ndcg = [0.0507, 0.0321, 0.0651, 0.0567]
+    drift = [0.7086, 0.6366, 0.5520, 0.6011]
+    reduction = [0, 10.2, 22.1, 15.2]
 
     fig, ax1 = plt.subplots(figsize=(8, 5))
     x = np.arange(len(configs))
@@ -119,7 +120,7 @@ def fig4_ablation():
     ax1.set_ylabel('nDCG@10', color='#2E75B6')
     ax1.set_xticks(x)
     ax1.set_xticklabels(configs)
-    ax1.set_ylim(0.7, 0.85)
+    ax1.set_ylim(0, 0.08)
     ax2 = ax1.twinx()
     ax2.plot(x, reduction, 'o--', color='#C00000', linewidth=2, markersize=8, label='Drift-Reduction (%)')
     ax2.set_ylabel('Drift-Reduction (%)', color='#C00000')
@@ -133,9 +134,9 @@ def fig4_ablation():
 
 
 def fig5_gpu_resources():
-    stages = ['文档编码\n(mE5-large)', '投影层训练\n(50 epochs)', '对抗训练\n(GRL)', 'KG实体对齐\n(离线)', '重排序推理\n(50查询)']
-    vram = [9.8, 11.2, 12.5, 0, 10.6]
-    time_s = [186, 42, 28, 0, 3.2]
+    stages = ['文档编码\n(BGE-M3)', 'DriftSup训练\n(50 epochs)', '检索评估\n(200查询)', 'KG对齐\n(离线)', '总计']
+    vram = [3.83, 0.04, 3.83, 0, 3.83]
+    time_s = [164.6, 21.7, 197.6, 0, 384.0]
     colors = ['#4472C4', '#70AD47', '#FFC000', '#A5A5A5', '#ED7D31']
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4.5))
