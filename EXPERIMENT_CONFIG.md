@@ -15,7 +15,8 @@
 
 ## 代码与版本管理
 - **本地开发**: `/Users/robin/project/drift-suppression-paper/`
-- **GitHub**: 任务生成后上传至 GitHub 仓库
+- **GitHub**: 仅上传代码、实验脚本与结果 JSON；**不上传论文**（*.docx / *.pdf）
+- **论文存储**: 仅保存在本地（如 `/Users/robin/Downloads/论文/`）
 - **远程工作目录**: `/data/workspace/drift-suppression/code/`
 
 ## 软件环境

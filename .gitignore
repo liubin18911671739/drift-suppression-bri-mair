@@ -1,0 +1,8 @@
+# 论文仅存本地，不上传 GitHub
+*.docx
+*.doc
+*.pdf
+
+# 本地生成物
+.DS_Store
+workspace/

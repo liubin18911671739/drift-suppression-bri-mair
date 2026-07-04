@@ -36,6 +36,11 @@ cd /data/workspace/drift-suppression/code/experiments
 bash run_all.sh
 ```
 
+## 论文与 GitHub 策略
+
+- **论文（Word/PDF）仅存本地**，不上传 GitHub
+- GitHub 仅同步：实验代码、`results/*.json`、配置与脚本
+
 ## 目录结构
 
 ```
