@@ -1,0 +1,5 @@
+============================================================
+Step 2: Build Queries (test=200)
+============================================================
+Saved 200 queries, 25000 pairs
+Stats: {'num_queries': 200, 'query_langs': {'zh': 40, 'en': 40, 'ru': 40, 'ar': 40, 'es': 40}, 'query_types': {'relation_exploration': 40, 'literature_discovery': 103, 'fact_query': 36, 'trend_analysis': 21}, 'num_pairs': 25000, 'avg_relevance': 0.6650279999999998}

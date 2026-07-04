@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "Q0001",
+    "text": "一带一路environment合作研究",
+    "lang": "zh",
+    "type": "relation_exploration",
+    "topic": "environment",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0002",
+    "text": "technology infrastructure investment along BRI",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "technology",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0003",
+    "text": "экономический пояс environment",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "environment",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0004",
+    "text": "تعاون 环境 في مبادرة الحزام والطريق",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0005",
+    "text": "inversión en finance de infraestructura BRI",
+    "lang": "es",
+    "type": "fact_query",
+    "topic": "finance",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0006",
+    "text": "中国与沿线国家trade合作",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "trade",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0007",
+    "text": "Silk Road economic belt 科技",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0008",
+    "text": "трансграничная политика 农业",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "农业",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0009",
+    "text": "استثمار trade عبر الحدود",
+    "lang": "ar",
+    "type": "fact_query",
+    "topic": "trade",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0010",
+    "text": "política transfronteriza de 贸易",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "贸易",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0011",
+    "text": "一带一路贸易合作研究",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "贸易",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0012",
+    "text": "cross-border environment policy analysis",
+    "lang": "en",
+    "type": "relation_exploration",
+    "topic": "environment",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0013",
+    "text": "трансграничная политика 旅游",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "旅游",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0014",
+    "text": "الربط الإقليمي 文化",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "文化",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0015",
+    "text": "cooperación 能源 en la Franja y la Ruta",
+    "lang": "es",
+    "type": "fact_query",
+    "topic": "能源",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0016",
+    "text": "丝绸之路经济带旅游发展",
+    "lang": "zh",
+    "type": "fact_query",
+    "topic": "旅游",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0017",
+    "text": "Belt and Road energy cooperation",
+    "lang": "en",
+    "type": "fact_query",
+    "topic": "energy",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0018",
+    "text": "сотрудничество tourism в рамках ОПОП",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "tourism",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0019",
+    "text": "الحزام الاقتصادي environment",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "environment",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0020",
+    "text": "inversión en 基础设施 de infraestructura BRI",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "基础设施",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0021",
+    "text": "丝绸之路经济带finance发展",
+    "lang": "zh",
+    "type": "relation_exploration",
+    "topic": "finance",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0022",
+    "text": "regional energy connectivity BRI",
+    "lang": "en",
+    "type": "fact_query",
+    "topic": "energy",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0023",
+    "text": "инвестиции в 科技 по инициативе Шёлкового пути",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0024",
+    "text": "سياسة 能源 الإقليمية",
+    "lang": "ar",
+    "type": "trend_analysis",
+    "topic": "能源",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0025",
+    "text": "inversión en 科技 de infraestructura BRI",
+    "lang": "es",
+    "type": "fact_query",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0026",
+    "text": "infrastructure跨境投资政策分析",
+    "lang": "zh",
+    "type": "relation_exploration",
+    "topic": "infrastructure",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0027",
+    "text": "Silk Road economic belt 贸易",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "贸易",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0028",
+    "text": "экономический пояс finance",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "finance",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0029",
+    "text": "استثمار 贸易 عبر الحدود",
+    "lang": "ar",
+    "type": "fact_query",
+    "topic": "贸易",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0030",
+    "text": "conectividad regional 能源",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "能源",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0031",
+    "text": "culture跨境投资政策分析",
+    "lang": "zh",
+    "type": "relation_exploration",
+    "topic": "culture",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0032",
+    "text": "cross-border 科技 policy analysis",
+    "lang": "en",
+    "type": "relation_exploration",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0033",
+    "text": "экономический пояс 环境",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0034",
+    "text": "استثمار technology عبر الحدود",
+    "lang": "ar",
+    "type": "fact_query",
+    "topic": "technology",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0035",
+    "text": "cooperación energy en la Franja y la Ruta",
+    "lang": "es",
+    "type": "relation_exploration",
+    "topic": "energy",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0036",
+    "text": "culture跨境投资政策分析",
+    "lang": "zh",
+    "type": "relation_exploration",
+    "topic": "culture",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0037",
+    "text": "regional 环境 connectivity BRI",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0038",
+    "text": "экономический пояс 能源",
+    "lang": "ru",
+    "type": "trend_analysis",
+    "topic": "能源",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0039",
+    "text": "سياسة 金融 الإقليمية",
+    "lang": "ar",
+    "type": "trend_analysis",
+    "topic": "金融",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0040",
+    "text": "cooperación trade en la Franja y la Ruta",
+    "lang": "es",
+    "type": "fact_query",
+    "topic": "trade",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0041",
+    "text": "丝绸之路经济带科技发展",
+    "lang": "zh",
+    "type": "relation_exploration",
+    "topic": "科技",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0042",
+    "text": "Belt and Road 贸易 cooperation",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "贸易",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0043",
+    "text": "региональная связность education",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "education",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0044",
+    "text": "الربط الإقليمي agriculture",
+    "lang": "ar",
+    "type": "relation_exploration",
+    "topic": "agriculture",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0045",
+    "text": "cooperación 金融 en la Franja y la Ruta",
+    "lang": "es",
+    "type": "relation_exploration",
+    "topic": "金融",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0046",
+    "text": "中国与沿线国家tourism合作",
+    "lang": "zh",
+    "type": "fact_query",
+    "topic": "tourism",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0047",
+    "text": "cross-border culture policy analysis",
+    "lang": "en",
+    "type": "relation_exploration",
+    "topic": "culture",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0048",
+    "text": "экономический пояс 科技",
+    "lang": "ru",
+    "type": "trend_analysis",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0049",
+    "text": "سياسة 旅游 الإقليمية",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "旅游",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0050",
+    "text": "política transfronteriza de environment",
+    "lang": "es",
+    "type": "relation_exploration",
+    "topic": "environment",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0051",
+    "text": "tourism跨境投资政策分析",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "tourism",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0052",
+    "text": "Belt and Road 农业 cooperation",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "农业",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0053",
+    "text": "сотрудничество 教育 в рамках ОПОП",
+    "lang": "ru",
+    "type": "trend_analysis",
+    "topic": "教育",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0054",
+    "text": "استثمار 科技 عبر الحدود",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0055",
+    "text": "cinturón económico 教育",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "教育",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0056",
+    "text": "中国与沿线国家金融合作",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "金融",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0057",
+    "text": "regional finance connectivity BRI",
+    "lang": "en",
+    "type": "relation_exploration",
+    "topic": "finance",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0058",
+    "text": "трансграничная политика finance",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "finance",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0059",
+    "text": "الحزام الاقتصادي 基础设施",
+    "lang": "ar",
+    "type": "trend_analysis",
+    "topic": "基础设施",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0060",
+    "text": "cooperación 文化 en la Franja y la Ruta",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "文化",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0061",
+    "text": "丝绸之路经济带energy发展",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "energy",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0062",
+    "text": "科技 infrastructure investment along BRI",
+    "lang": "en",
+    "type": "fact_query",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0063",
+    "text": "сотрудничество trade в рамках ОПОП",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "trade",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0064",
+    "text": "استثمار infrastructure عبر الحدود",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "infrastructure",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0065",
+    "text": "política transfronteriza de infrastructure",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "infrastructure",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0066",
+    "text": "丝绸之路经济带technology发展",
+    "lang": "zh",
+    "type": "fact_query",
+    "topic": "technology",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0067",
+    "text": "regional finance connectivity BRI",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "finance",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0068",
+    "text": "экономический пояс 农业",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "农业",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0069",
+    "text": "الحزام الاقتصادي 教育",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "教育",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0070",
+    "text": "conectividad regional environment",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "environment",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0071",
+    "text": "环境区域互联互通",
+    "lang": "zh",
+    "type": "relation_exploration",
+    "topic": "环境",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0072",
+    "text": "Belt and Road infrastructure cooperation",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "infrastructure",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0073",
+    "text": "сотрудничество 贸易 в рамках ОПОП",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "贸易",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0074",
+    "text": "الربط الإقليمي finance",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "finance",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0075",
+    "text": "inversión en 环境 de infraestructura BRI",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0076",
+    "text": "一带一路technology合作研究",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "technology",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0077",
+    "text": "Belt and Road 科技 cooperation",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0078",
+    "text": "сотрудничество 科技 в рамках ОПОП",
+    "lang": "ru",
+    "type": "trend_analysis",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0079",
+    "text": "استثمار technology عبر الحدود",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "technology",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0080",
+    "text": "inversión en 教育 de infraestructura BRI",
+    "lang": "es",
+    "type": "relation_exploration",
+    "topic": "教育",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0081",
+    "text": "infrastructure跨境投资政策分析",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "infrastructure",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0082",
+    "text": "cross-border 能源 policy analysis",
+    "lang": "en",
+    "type": "trend_analysis",
+    "topic": "能源",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0083",
+    "text": "трансграничная политика 文化",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "文化",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0084",
+    "text": "الحزام الاقتصادي 科技",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0085",
+    "text": "inversión en tourism de infraestructura BRI",
+    "lang": "es",
+    "type": "trend_analysis",
+    "topic": "tourism",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0086",
+    "text": "中国与沿线国家农业合作",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "农业",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0087",
+    "text": "Belt and Road 贸易 cooperation",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "贸易",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0088",
+    "text": "экономический пояс 教育",
+    "lang": "ru",
+    "type": "trend_analysis",
+    "topic": "教育",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0089",
+    "text": "استثمار 金融 عبر الحدود",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "金融",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0090",
+    "text": "cooperación 金融 en la Franja y la Ruta",
+    "lang": "es",
+    "type": "relation_exploration",
+    "topic": "金融",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0091",
+    "text": "中国与沿线国家energy合作",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "energy",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0092",
+    "text": "Silk Road economic belt technology",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "technology",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0093",
+    "text": "инвестиции в 农业 по инициативе Шёлкового пути",
+    "lang": "ru",
+    "type": "fact_query",
+    "topic": "农业",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0094",
+    "text": "الربط الإقليمي infrastructure",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "infrastructure",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0095",
+    "text": "cinturón económico 农业",
+    "lang": "es",
+    "type": "fact_query",
+    "topic": "农业",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0096",
+    "text": "agriculture跨境投资政策分析",
+    "lang": "zh",
+    "type": "fact_query",
+    "topic": "agriculture",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0097",
+    "text": "贸易 infrastructure investment along BRI",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "贸易",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0098",
+    "text": "трансграничная политика culture",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "culture",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0099",
+    "text": "تعاون energy في مبادرة الحزام والطريق",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "energy",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0100",
+    "text": "cooperación 农业 en la Franja y la Ruta",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "农业",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0101",
+    "text": "中国与沿线国家finance合作",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "finance",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0102",
+    "text": "Belt and Road 基础设施 cooperation",
+    "lang": "en",
+    "type": "relation_exploration",
+    "topic": "基础设施",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0103",
+    "text": "трансграничная политика 基础设施",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "基础设施",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0104",
+    "text": "سياسة 科技 الإقليمية",
+    "lang": "ar",
+    "type": "fact_query",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0105",
+    "text": "cooperación 金融 en la Franja y la Ruta",
+    "lang": "es",
+    "type": "fact_query",
+    "topic": "金融",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0106",
+    "text": "丝绸之路经济带科技发展",
+    "lang": "zh",
+    "type": "trend_analysis",
+    "topic": "科技",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0107",
+    "text": "environment infrastructure investment along BRI",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "environment",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0108",
+    "text": "экономический пояс environment",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "environment",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0109",
+    "text": "الربط الإقليمي tourism",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "tourism",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0110",
+    "text": "inversión en 贸易 de infraestructura BRI",
+    "lang": "es",
+    "type": "fact_query",
+    "topic": "贸易",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0111",
+    "text": "中国与沿线国家agriculture合作",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "agriculture",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0112",
+    "text": "Belt and Road infrastructure cooperation",
+    "lang": "en",
+    "type": "fact_query",
+    "topic": "infrastructure",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0113",
+    "text": "сотрудничество agriculture в рамках ОПОП",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "agriculture",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0114",
+    "text": "سياسة culture الإقليمية",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "culture",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0115",
+    "text": "cinturón económico 文化",
+    "lang": "es",
+    "type": "relation_exploration",
+    "topic": "文化",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0116",
+    "text": "一带一路科技合作研究",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "科技",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0117",
+    "text": "regional culture connectivity BRI",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "culture",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0118",
+    "text": "экономический пояс 基础设施",
+    "lang": "ru",
+    "type": "fact_query",
+    "topic": "基础设施",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0119",
+    "text": "استثمار 环境 عبر الحدود",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0120",
+    "text": "cooperación 基础设施 en la Franja y la Ruta",
+    "lang": "es",
+    "type": "trend_analysis",
+    "topic": "基础设施",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0121",
+    "text": "finance跨境投资政策分析",
+    "lang": "zh",
+    "type": "fact_query",
+    "topic": "finance",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0122",
+    "text": "regional 基础设施 connectivity BRI",
+    "lang": "en",
+    "type": "trend_analysis",
+    "topic": "基础设施",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0123",
+    "text": "экономический пояс 环境",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0124",
+    "text": "استثمار technology عبر الحدود",
+    "lang": "ar",
+    "type": "trend_analysis",
+    "topic": "technology",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0125",
+    "text": "conectividad regional education",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "education",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0126",
+    "text": "贸易区域互联互通",
+    "lang": "zh",
+    "type": "relation_exploration",
+    "topic": "贸易",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0127",
+    "text": "cross-border technology policy analysis",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "technology",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0128",
+    "text": "региональная связность environment",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "environment",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0129",
+    "text": "استثمار 教育 عبر الحدود",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "教育",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0130",
+    "text": "política transfronteriza de 文化",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "文化",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0131",
+    "text": "technology跨境投资政策分析",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "technology",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0132",
+    "text": "Silk Road economic belt finance",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "finance",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0133",
+    "text": "трансграничная политика energy",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "energy",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0134",
+    "text": "الحزام الاقتصادي 金融",
+    "lang": "ar",
+    "type": "fact_query",
+    "topic": "金融",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0135",
+    "text": "política transfronteriza de 科技",
+    "lang": "es",
+    "type": "trend_analysis",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0136",
+    "text": "丝绸之路经济带environment发展",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "environment",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0137",
+    "text": "Belt and Road agriculture cooperation",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "agriculture",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0138",
+    "text": "трансграничная политика 环境",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0139",
+    "text": "الحزام الاقتصادي 贸易",
+    "lang": "ar",
+    "type": "fact_query",
+    "topic": "贸易",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0140",
+    "text": "cooperación 金融 en la Franja y la Ruta",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "金融",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0141",
+    "text": "农业跨境投资政策分析",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "农业",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0142",
+    "text": "Belt and Road 环境 cooperation",
+    "lang": "en",
+    "type": "fact_query",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0143",
+    "text": "инвестиции в 科技 по инициативе Шёлкового пути",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0144",
+    "text": "سياسة energy الإقليمية",
+    "lang": "ar",
+    "type": "fact_query",
+    "topic": "energy",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0145",
+    "text": "política transfronteriza de environment",
+    "lang": "es",
+    "type": "fact_query",
+    "topic": "environment",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0146",
+    "text": "丝绸之路经济带环境发展",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "环境",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0147",
+    "text": "regional tourism connectivity BRI",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "tourism",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0148",
+    "text": "региональная связность 环境",
+    "lang": "ru",
+    "type": "fact_query",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0149",
+    "text": "الربط الإقليمي education",
+    "lang": "ar",
+    "type": "fact_query",
+    "topic": "education",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0150",
+    "text": "cinturón económico 能源",
+    "lang": "es",
+    "type": "relation_exploration",
+    "topic": "能源",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0151",
+    "text": "丝绸之路经济带tourism发展",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "tourism",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0152",
+    "text": "regional 农业 connectivity BRI",
+    "lang": "en",
+    "type": "fact_query",
+    "topic": "农业",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0153",
+    "text": "региональная связность 文化",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "文化",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0154",
+    "text": "الربط الإقليمي finance",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "finance",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0155",
+    "text": "cooperación education en la Franja y la Ruta",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "education",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0156",
+    "text": "丝绸之路经济带旅游发展",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "旅游",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0157",
+    "text": "cross-border technology policy analysis",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "technology",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0158",
+    "text": "инвестиции в finance по инициативе Шёлкового пути",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "finance",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0159",
+    "text": "الحزام الاقتصادي technology",
+    "lang": "ar",
+    "type": "fact_query",
+    "topic": "technology",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0160",
+    "text": "conectividad regional energy",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "energy",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0161",
+    "text": "农业跨境投资政策分析",
+    "lang": "zh",
+    "type": "relation_exploration",
+    "topic": "农业",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0162",
+    "text": "Silk Road economic belt 能源",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "能源",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0163",
+    "text": "сотрудничество culture в рамках ОПОП",
+    "lang": "ru",
+    "type": "trend_analysis",
+    "topic": "culture",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0164",
+    "text": "الحزام الاقتصادي environment",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "environment",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0165",
+    "text": "conectividad regional 金融",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "金融",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0166",
+    "text": "一带一路technology合作研究",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "technology",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0167",
+    "text": "regional 文化 connectivity BRI",
+    "lang": "en",
+    "type": "trend_analysis",
+    "topic": "文化",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0168",
+    "text": "трансграничная политика 旅游",
+    "lang": "ru",
+    "type": "trend_analysis",
+    "topic": "旅游",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0169",
+    "text": "الربط الإقليمي 文化",
+    "lang": "ar",
+    "type": "relation_exploration",
+    "topic": "文化",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0170",
+    "text": "conectividad regional 金融",
+    "lang": "es",
+    "type": "relation_exploration",
+    "topic": "金融",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0171",
+    "text": "科技区域互联互通",
+    "lang": "zh",
+    "type": "trend_analysis",
+    "topic": "科技",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0172",
+    "text": "Silk Road economic belt 教育",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "教育",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0173",
+    "text": "трансграничная политика technology",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "technology",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0174",
+    "text": "الحزام الاقتصادي 金融",
+    "lang": "ar",
+    "type": "fact_query",
+    "topic": "金融",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0175",
+    "text": "conectividad regional agriculture",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "agriculture",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0176",
+    "text": "tourism跨境投资政策分析",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "tourism",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0177",
+    "text": "regional 贸易 connectivity BRI",
+    "lang": "en",
+    "type": "literature_discovery",
+    "topic": "贸易",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0178",
+    "text": "инвестиции в culture по инициативе Шёлкового пути",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "culture",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0179",
+    "text": "استثمار culture عبر الحدود",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "culture",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0180",
+    "text": "política transfronteriza de 环境",
+    "lang": "es",
+    "type": "fact_query",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0181",
+    "text": "一带一路环境合作研究",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "环境",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0182",
+    "text": "Silk Road economic belt 环境",
+    "lang": "en",
+    "type": "trend_analysis",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0183",
+    "text": "сотрудничество 农业 в рамках ОПОП",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "农业",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0184",
+    "text": "الحزام الاقتصادي 农业",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "农业",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0185",
+    "text": "política transfronteriza de 基础设施",
+    "lang": "es",
+    "type": "relation_exploration",
+    "topic": "基础设施",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0186",
+    "text": "中国与沿线国家环境合作",
+    "lang": "zh",
+    "type": "relation_exploration",
+    "topic": "环境",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0187",
+    "text": "regional 科技 connectivity BRI",
+    "lang": "en",
+    "type": "trend_analysis",
+    "topic": "科技",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0188",
+    "text": "инвестиции в 教育 по инициативе Шёлкового пути",
+    "lang": "ru",
+    "type": "literature_discovery",
+    "topic": "教育",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0189",
+    "text": "تعاون 教育 في مبادرة الحزام والطريق",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "教育",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0190",
+    "text": "inversión en 能源 de infraestructura BRI",
+    "lang": "es",
+    "type": "relation_exploration",
+    "topic": "能源",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0191",
+    "text": "中国与沿线国家culture合作",
+    "lang": "zh",
+    "type": "fact_query",
+    "topic": "culture",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0192",
+    "text": "regional 能源 connectivity BRI",
+    "lang": "en",
+    "type": "fact_query",
+    "topic": "能源",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0193",
+    "text": "сотрудничество trade в рамках ОПОП",
+    "lang": "ru",
+    "type": "fact_query",
+    "topic": "trade",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0194",
+    "text": "الحزام الاقتصادي culture",
+    "lang": "ar",
+    "type": "literature_discovery",
+    "topic": "culture",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0195",
+    "text": "conectividad regional agriculture",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "agriculture",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  },
+  {
+    "id": "Q0196",
+    "text": "丝绸之路经济带文化发展",
+    "lang": "zh",
+    "type": "literature_discovery",
+    "topic": "文化",
+    "target_langs": [
+      "en",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0197",
+    "text": "cross-border 能源 policy analysis",
+    "lang": "en",
+    "type": "relation_exploration",
+    "topic": "能源",
+    "target_langs": [
+      "zh",
+      "ru",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0198",
+    "text": "трансграничная политика 环境",
+    "lang": "ru",
+    "type": "relation_exploration",
+    "topic": "环境",
+    "target_langs": [
+      "zh",
+      "en",
+      "ar",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0199",
+    "text": "تعاون 教育 في مبادرة الحزام والطريق",
+    "lang": "ar",
+    "type": "relation_exploration",
+    "topic": "教育",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "es"
+    ]
+  },
+  {
+    "id": "Q0200",
+    "text": "política transfronteriza de infrastructure",
+    "lang": "es",
+    "type": "literature_discovery",
+    "topic": "infrastructure",
+    "target_langs": [
+      "zh",
+      "en",
+      "ru",
+      "ar"
+    ]
+  }
+]

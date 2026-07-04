@@ -1,0 +1,10 @@
+============================================================
+Step 4: Train DriftSup (projection + adversarial)
+============================================================
+  Epoch 10/50, loss=0.217352
+  Epoch 20/50, loss=0.213716
+  Epoch 30/50, loss=0.196221
+  Epoch 40/50, loss=0.182681
+  Epoch 50/50, loss=0.180993
+Saved checkpoint to /data/workspace/drift-suppression/results/checkpoints
+Train time: 21.7s, peak VRAM: 0.0GB

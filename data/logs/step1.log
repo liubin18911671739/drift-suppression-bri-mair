@@ -1,0 +1,20 @@
+============================================================
+Step 1: Build BRI-MAIR Corpus (target=15000)
+============================================================
+  Fetching: belt and road
+    cumulative unique: 3000
+  Fetching: 一带一路
+    cumulative unique: 5551
+  Fetching: BRI
+    cumulative unique: 7392
+  Fetching: silk road
+    cumulative unique: 9750
+  Fetching: infrastructure investment
+    cumulative unique: 12628
+  Fetching: 跨境基础设施
+    cumulative unique: 12669
+  Fetching: regional cooperation
+    cumulative unique: 15564
+Language distribution: {'en': 12604, 'zh': 1916, 'es': 410, 'ru': 62, 'ar': 8}
+Saved 15000 docs -> /data/workspace/drift-suppression/corpus/bri_mair_corpus.json
+Stats: {'total': 15000, 'languages': {'en': 12604, 'zh': 1916, 'es': 410, 'ru': 62, 'ar': 8}, 'years': {2023: 1777, 2024: 1586, 2022: 2021, 2021: 2383, 2019: 2437, 2020: 2602, 2018: 2194}, 'avg_abstract_len': 915.3297333333334}

@@ -39,14 +39,26 @@ bash run_all.sh
 ## 论文与 GitHub 策略
 
 - **论文（Word/PDF）仅存本地**，不上传 GitHub
-- GitHub 仅同步：实验代码、`results/*.json`、配置与脚本
+- **GitHub 同步**：实验代码 + `data/` 完整数据集（语料、嵌入、检查点、结果、日志）
 
-## 目录结构
+## 可复现数据包（`data/`）
+
+| 内容 | 规模 | 说明 |
+|------|------|------|
+| `corpus/bri_mair_corpus.json` | 15,000 篇 | OpenAlex 一带一路学术文献 |
+| `corpus/test_queries.json` | 200 组 | 五语种测试查询 |
+| `results/experiment_results.json` | — | 完整评测指标 |
+| `results/embeddings/` | 59MB | BGE-M3 预计算向量 |
+| `results/checkpoints/` | 3.3MB | DriftSup 模型权重 |
+
+详见 [data/README.md](data/README.md)
+
+## 服务器目录结构
 
 ```
-/data/workspace/drift-suppression/
-├── corpus/          # 语料与查询
-├── results/         # 嵌入、检查点、实验结果
-├── logs/            # 运行日志
-└── code/            # 代码（同步自 GitHub）
+/data/workspace/drift-suppression/   ← 与 GitHub data/ 同步
+├── corpus/
+├── results/
+├── logs/
+└── code/                            ← 与 GitHub experiments/ 同步
 ```

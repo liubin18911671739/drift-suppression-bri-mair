@@ -1,0 +1,11 @@
+{
+  "model": "/data/workspace/huggingface_cache/hub/models--BAAI--bge-m3/snapshots/5617a9f61b028005a4858fdac845db406aefb181",
+  "dim": 1024,
+  "num_docs": 15000,
+  "num_queries": 200,
+  "doc_encode_time_s": 164.59,
+  "query_encode_time_s": 0.11,
+  "peak_vram_gb": 3.83,
+  "batch_size": 64,
+  "device": "cuda"
+}
